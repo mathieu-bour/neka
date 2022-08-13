@@ -1,0 +1,21 @@
+{
+  "name": "@neka/workspace",
+  "version": "0.0.0",
+  "scripts": {
+    "format": "prettier --check '**/*.{js,jsx,ts,tsx,css,less,sass,scss,json,json5,yml,yaml,md,mdx,graphql,sol}'",
+    "format:fix": "prettier --write '**/*.{js,jsx,ts,tsx,css,less,sass,scss,json,json5,yml,yaml,md,mdx,graphql,sol}'"
+  },
+  "devDependencies": {
+    "@mathieu-bour/prettier-config": "github:mathieu-bour/prettier-config",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "1.0.0-beta.24"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@babel/core",
+        "webpack"
+      ]
+    }
+  }
+}

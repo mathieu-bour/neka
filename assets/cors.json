@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://neka.mathieu-bour.fr", "http://localhost:3000"],
+    "method": ["*"],
+    "responseHeader": ["*"],
+    "maxAgeSeconds": 3600
+  }
+]
