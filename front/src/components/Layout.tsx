@@ -61,6 +61,9 @@ const Layout: FC<LayoutProps> = ({ children }) => {
             <Link href="https://github.com/mathieu-bour">Mathieu Bour</Link>, created on the{' '}
             <Link href="https://testnet.snowtrace.io/">Avalanche Fuji Testnet</Link>
           </Text>
+          <Text fontSize="sm">
+            All NFT credits go to <Link href="https://robohash.org/">robohash.org</Link>
+          </Text>
         </Container>
       </Box>
     </Flex>

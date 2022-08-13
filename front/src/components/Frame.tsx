@@ -12,7 +12,7 @@ const Frame: FC<FramePros> = ({ src, size = 300, ...boxProps }) => {
     <Flex display="inline-flex" p={3} border="solid 1px" borderColor="gray.400" {...boxProps}>
       <Skeleton isLoaded={typeof src === 'string'}>
         <Box bgColor="gray.400" width={size} height={size}>
-          {src && <Image src={src} width={size} height={size} />}
+          {src && <Image src={src} width={size} height={size} alt="A Neka NFT" />}
         </Box>
       </Skeleton>
     </Flex>

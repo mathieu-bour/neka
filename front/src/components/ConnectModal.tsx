@@ -53,7 +53,7 @@ const ConnectModal: FC<ConnectModal> = ({ isOpen, onClose }) => {
               py={2}
               onClick={handleMetaMask}
             >
-              <Image src={metamaskLogo} width="50px" height="50px" />
+              <Image src={metamaskLogo} width="50px" height="50px" alt="MetaMask logo" />
               <Text>MetaMask</Text>
             </Button>
 
@@ -66,7 +66,7 @@ const ConnectModal: FC<ConnectModal> = ({ isOpen, onClose }) => {
               py={2}
               onClick={handleWalletConnect}
             >
-              <Image src={walletConnectLogo} width="50px" height="50px" />
+              <Image src={walletConnectLogo} width="50px" height="50px" alt="WalletConnect logo" />
               <Text>WalletConnect</Text>
             </Button>
           </Grid>
